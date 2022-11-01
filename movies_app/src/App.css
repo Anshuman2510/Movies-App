@@ -1,0 +1,45 @@
+body{
+  position: relative;
+}
+
+.text-size
+{
+  font-size: 27px !important;
+}
+.space{
+  margin-bottom: 12px;
+}
+
+.input{
+  width: 36% !important;
+  
+}
+.input-margin{
+  margin-right: 4% !important;
+}
+
+.wrapper{
+  flex-wrap: wrap;
+}
+.setHeight{
+  /* overflow: scroll;
+  ove[rflow-x: hidden;
+  display:flex;
+  flex:1; */
+}
+
+.mw{
+
+  min-width: 10rem !important;
+}
+
+.full-width{
+  /* position:absolute;
+  max-width :100% !important; */
+  left:0 ;
+  right:0;
+  width:100%
+  /* display:flex;
+  flex:1 */
+  
+}
