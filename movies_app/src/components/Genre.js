@@ -20,7 +20,7 @@ function Genre() {
 },[])
 
   return (
-    <Card style={{ width: '12rem' }}  className="ms-3 mw">
+    <Card style={{ width: '12rem' }}  className="ms-3 mw  d-none d-md-block d-xl-block ">
       <ListGroup variant="flush" className="setHeight">
         <ListGroup.Item onClick={(e)=>getGenre(e.target.textContent,content.genres.id)}>All Genre</ListGroup.Item>
         {

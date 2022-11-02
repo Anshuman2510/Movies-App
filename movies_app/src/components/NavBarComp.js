@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 function NavBarComp() {
   return (
   
-    <Navbar  collapseOnSelect expand="lg" bg="dark" variant="dark" className='space full-width'>
+    <Navbar  collapseOnSelect expand="lg" bg="dark" variant="dark" className='space'>
       <Container >
         <Navbar.Brand className='text-size'>IMDB</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />

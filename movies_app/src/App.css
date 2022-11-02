@@ -21,25 +21,10 @@ body{
 .wrapper{
   flex-wrap: wrap;
 }
-.setHeight{
-  /* overflow: scroll;
-  ove[rflow-x: hidden;
-  display:flex;
-  flex:1; */
-}
 
 .mw{
 
   min-width: 10rem !important;
 }
 
-.full-width{
-  /* position:absolute;
-  max-width :100% !important; */
-  left:0 ;
-  right:0;
-  width:100%
-  /* display:flex;
-  flex:1 */
-  
-}
+

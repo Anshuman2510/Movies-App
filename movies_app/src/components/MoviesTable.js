@@ -69,7 +69,7 @@ function MoviesTable() {
     
   return (
     loading===true?  <Spinner animation="border" variant="primary" />
-    :<Table  className='table-auto '>
+    :<Table responsive="md" className='table-auto '>
       <thead>
         <tr>
             <th>#</th>
