@@ -1,4 +1,4 @@
-//npm install react-router-dom@5.3.1
+//npm install react-router-dom@5.3.3
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import NavBarComp from './components/NavBarComp';
@@ -11,8 +11,8 @@ function App() {
       <NavBarComp></NavBarComp>
 
       <Switch>
-        <Route path="/">
-          <Home/>
+        <Route path="/home">
+          <Home></Home>
         </Route>
      </Switch>
 

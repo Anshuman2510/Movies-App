@@ -9,7 +9,7 @@ export function ContentProvider({children})
     const [loading,setLoading]=useState(true);
 
     
-        
+        // console.log("content genres",content.genres);
         
     
     return(
